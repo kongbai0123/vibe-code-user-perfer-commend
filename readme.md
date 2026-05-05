@@ -1,11 +1,10 @@
 # Vibe Coding Prompt System
 
-A structured prompt profile system for AI-assisted software engineering.
+A structured prompt profile system for AI-assisted software engineering, debugging, refactoring, architecture design, AI experiments, edge deployment, control systems, and technical documentation.
 
 ## Why This Repository Exists
 
-Most AI coding prompts focus only on speed.
-This repository focuses on **controlled speed**:
+Most AI coding prompts focus only on speed. This repository focuses on **controlled speed**:
 
 ```text
 fast iteration
@@ -17,6 +16,8 @@ fast iteration
 
 ## Core Concept
 
+The fundamental formula for high-quality AI interaction:
+
 ```text
 AI role mode
 + engineering principles
@@ -26,43 +27,45 @@ AI role mode
 
 ## Prompt Profiles
 
-| File | Purpose |
-| --- | --- |
-| `core/master_rules.md` | Highest-priority rules and anti-chaos constraints |
-| `profiles/vibe_coding.md` | Vibe coding with engineering constraints |
-| `profiles/refactor_review.md` | Refactoring and code review |
-| `profiles/debug_diagnosis.md` | Systematic debugging and diagnosis |
-| `profiles/architecture_design.md` | System architecture design |
-| `profiles/algorithm_ai.md` | Algorithm, AI, ML, YOLO, CNN, optical flow |
-| `profiles/edge_deployment.md` | Edge deployment, Jetson, embedded systems |
-| `profiles/control_system.md` | Control systems and mechatronics safety |
-| `profiles/documentation.md` | README, technical docs, research writing |
+| File Path | Purpose |
+| :--- | :--- |
+| `core/master_rules.md` | **Highest-priority** rules and anti-chaos constraints |
+| `profiles/vibe_coding.md` | Vibe coding with professional engineering constraints |
+| `profiles/refactor_review.md` | Expert-level code refactoring and professional review |
+| `profiles/debug_diagnosis.md` | Systematic debugging and root-cause diagnosis |
+| `profiles/architecture_design.md` | System architecture and modular design |
+| `profiles/algorithm_ai.md` | Algorithm design, AI, ML, YOLO, CNN, Optical Flow |
+| `profiles/edge_deployment.md` | Edge deployment, Jetson, TensorRT, TFLite, FPS/Latency |
+| `profiles/control_system.md` | Control systems, Mechatronics safety, Stability analysis |
+| `profiles/documentation.md` | README, technical documentation, research writing |
 
 ## Quick Start
 
-For **Vibe Coding**:
+### For Vibe Coding (Rapid Feature Implementation):
+**Use:**
+- `core/master_rules.md`
+- `profiles/vibe_coding.md`
+
+**Then ask:**
 ```text
-Use:
-- core/master_rules.md
-- profiles/vibe_coding.md
+請套用 vibe coding 工程約束模式。
+任務如下：
+...
 ```
 
-For **Debugging**:
-```text
-Use:
-- core/master_rules.md
-- profiles/debug_diagnosis.md
-```
+### For Debugging (Systematic Diagnosis):
+**Use:**
+- `core/master_rules.md`
+- `profiles/debug_diagnosis.md`
 
-Check [QUICK_START.md](QUICK_START.md) for more details.
+### For Architecture Design:
+**Use:**
+- `core/master_rules.md`
+- `profiles/architecture_design.md`
 
 ## Recommended Default Rule
 
-Always start with:
-```text
-core/master_rules.md
-```
-Then add one task-specific prompt profile.
+Always start with `core/master_rules.md`, then add one task-specific prompt profile from the `profiles/` folder. Check out the [PROMPT_INDEX.md](PROMPT_INDEX.md) for more combinations.
 
 ## License
 
