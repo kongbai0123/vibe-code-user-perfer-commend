@@ -1,29 +1,52 @@
 # Quick Start
 
-Get started with the Vibe Coding Prompt System in 30 seconds.
+This repository provides reusable prompt profiles for AI-assisted engineering work.
 
-## Step 1: Choose your profile
+## Basic Usage
 
-Check the [PROMPT_INDEX.md](PROMPT_INDEX.md) to find the right profile for your task.
+1. **Choose your task type**: Check the [PROMPT_INDEX.md](PROMPT_INDEX.md).
+2. **Combine and Copy**: Most tasks require `core/master_rules.md` plus a specific profile.
+3. **Paste**: Input the prompt content into your AI assistant.
+4. **Run**: Add your actual task below the prompt.
 
-## Step 2: Combine and Copy
+## Example: Vibe Coding
 
-For most tasks, you need a combination of a **Core Rule** and a **Profile**.
+Use:
+- `core/master_rules.md`
+- `profiles/vibe_coding.md`
 
-### Example: Vibe Coding
-1. Copy the content of `core/01_master_rules.md`.
-2. Copy the content of `profiles/vibe_coding.md`.
-3. Paste them into your AI chat (ChatGPT, Claude, etc.) or as a System Prompt.
-
-## Step 3: Run your task
-
-Ask the AI to apply the mode:
+Prompt:
 ```text
-請套用 vibe coding 模式。
+請套用 vibe coding 工程約束模式。
+
 任務如下：
-[您的任務描述]
+請幫我實作一個影像輸入、模型推論、後處理與結果輸出的 Python pipeline。
 ```
 
-## Step 4: Validate
+## Example: Debugging
 
-Check if the AI follows the **Execution Gate** (from `core/02_execution_gate.md`) before it starts coding.
+Use:
+- `core/master_rules.md`
+- `profiles/debug_diagnosis.md`
+
+Prompt:
+```text
+請套用 debug diagnosis 模式。
+
+以下是錯誤訊息與程式碼：
+...
+```
+
+## Example: Edge Deployment
+
+Use:
+- `core/master_rules.md`
+- `profiles/edge_deployment.md`
+
+Prompt:
+```text
+請套用 edge deployment 工程模式。
+
+目標平台：Jetson Orin Nano
+任務：將 YOLO 模型部署成開機自動啟動的推論系統。
+```

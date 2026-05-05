@@ -5,8 +5,8 @@
 ```text
 【模式：快速開發組合包】
 
-請優先遵守 core/01_master_rules.md 中的最高優先級規則。
+請優先遵守 core/master_rules.md 中的最高優先級規則。
 並套用 profiles/vibe_coding.md 的工程約束。
 
-執行前請先通過 core/02_execution_gate.md 的檢查。
+執行前請先通過 core/execution_gate.md 的檢查。
 ```

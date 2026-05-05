@@ -5,6 +5,6 @@
 ```text
 【模式：系統架構設計組合包】
 
-請優先遵守 core/01_master_rules.md 中的最高優先級規則。
+請優先遵守 core/master_rules.md 中的最高優先級規則。
 並套用 profiles/architecture_design.md 的架構設計準則。
 ```
