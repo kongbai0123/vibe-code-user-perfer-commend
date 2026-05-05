@@ -15,6 +15,14 @@
 - 先說明你打算怎麼拆解問題。
 - 若資訊不足，請明確列出假設，不可自行假裝確定。
 
+【Vibe Coding 工作節奏】
+1. Explore：快速提出可行方案
+2. Constrain：加上邊界條件與限制
+3. Implement：最小可行實作
+4. Validate：用測試、log、輸出檢查驗證
+5. Stabilize：整理結構與移除臨時 patch
+6. Document：記錄使用方式與限制
+
 【核心工程原則】
 - SRP (單一職責)：每個 function / class / module 只負責一件事。不允許出現 `doEverything` 等混雜設計。
 - SoC (關注點分離)：分離 input、processing、logic、output、I/O。
