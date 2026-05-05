@@ -2,57 +2,66 @@
 
 A structured prompt profile system for AI-assisted software engineering.
 
-This repository is designed for developers who use AI coding tools but still need engineering discipline, maintainability, debugging capability, and reproducibility.
+## Why this exists
+
+Most AI coding prompts focus only on speed.
+This repository focuses on **controlled speed**:
+
+- **Fast Iteration**: Rapid prototype generation without sacrificing quality.
+- **Architecture Constraints**: Enforces SRP, SoC, and Layered Architecture.
+- **Validation**: Every change must be verified and logged.
+- **Debugging**: Systematic diagnosis over guessing.
+- **Traceability**: All model decisions must be traceable to a config or source.
+- **Minimal-Change Discipline**: No random refactoring or unrelated changes.
 
 ## Core Concept
 
-Most AI coding prompts optimize for speed.
-
-This repository optimizes for controlled speed:
-
+The fundamental formula for high-quality AI interaction:
 ```text
-fast iteration
-+ architectural constraints
-+ validation
-+ traceability
-+ minimal-change discipline
+AI role mode
++ engineering principles
++ forbidden actions
++ output contract
 ```
-
-## When to Use
-
-Use this repository when you want AI to help with:
-
-* vibe coding
-* debugging
-* refactoring
-* architecture design
-* AI / ML experiment planning
-* edge deployment
-* control system engineering
-* technical documentation
-* research writing
 
 ## Quick Start
 
-### For vibe coding
+### For Vibe Coding (Rapid Development)
 
-Copy:
-- `core/01_master_rules.md`
-- `profiles/vibe_coding.md`
+1. Use `core/01_master_rules.md`.
+2. Use `profiles/vibe_coding.md`.
 
 Then ask:
-
 ```text
-請套用 vibe coding 模式。任務如下：
-...
+請套用 vibe coding 模式。
+任務如下：
+[您的任務描述]
 ```
 
-## Directory Structure
+Check out the [QUICK_START.md](QUICK_START.md) for more details.
 
-- `core/`: 核心基礎規則 (Master Rules, Execution Gate, 最小變更原則)
-- `profiles/`: 情境式提示詞 (Vibe Coding, Debug, 重構, 架構, AI, Edge 等)
-- `recipes/`: 常用組合包 (快速寫功能、修 Bug 等)
-- `examples/`: 實際使用範例
-- `tool-specific/`: 針對 Cursor、Copilot 等 AI IDE 的設定檔
+## Prompt Profiles Index
 
-請查看 [PROMPT_INDEX.md](PROMPT_INDEX.md) 來決定你要使用哪個 Prompt Profile。
+| Profile | File | Use case |
+| --- | --- | --- |
+| **Master Rules** | `core/01_master_rules.md` | Highest-priority rules for all tasks |
+| **Vibe Coding** | `profiles/vibe_coding.md` | Fast AI-assisted coding & prototyping |
+| **Refactor & Review** | `profiles/refactor_review.md` | Code refactoring & expert review |
+| **Debug Diagnosis** | `profiles/debug_diagnosis.md` | Systematic bug diagnosis & fixing |
+| **Architecture Design** | `profiles/architecture_design.md` | System architecture & module design |
+| **Algorithm & AI** | `profiles/algorithm_ai.md` | AI / ML / Algorithm research & design |
+| **Edge Deployment** | `profiles/edge_deployment.md` | Jetson / TFLite / ONNX edge deployment |
+| **Control System** | `profiles/control_system.md` | Control system & Mechatronics safety |
+| **Documentation** | `profiles/documentation.md` | README / Paper / Technical docs |
+
+## Folder Structure
+
+- `core/`: Fundamental rules (Master Rules, Execution Gate, Minimal Change Policy).
+- `profiles/`: Specific scenario prompts (Vibe Coding, Debug, AI, Edge, etc.).
+- `recipes/`: Pre-combined prompt packs for quick use.
+- `examples/`: Real-world usage scenarios and expected AI behavior.
+- `tool-specific/`: Configurations for Cursor, Copilot, Claude Code, and Windsurf.
+
+## License
+
+MIT License.
