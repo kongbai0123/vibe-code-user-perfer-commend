@@ -15,6 +15,7 @@ This repository provides reusable prompt profiles for AI-assisted engineering wo
 ## Usage Examples
 
 ### 1. Vibe Coding (Feature Implementation)
+
 **Use:**
 - `core/master_rules.md`
 - `profiles/vibe_coding.md`
@@ -28,6 +29,7 @@ This repository provides reusable prompt profiles for AI-assisted engineering wo
 ```
 
 ### 2. Debugging (System Diagnosis)
+
 **Use:**
 - `core/master_rules.md`
 - `profiles/debug_diagnosis.md`
@@ -41,6 +43,7 @@ This repository provides reusable prompt profiles for AI-assisted engineering wo
 ```
 
 ### 3. Edge Deployment
+
 **Use:**
 - `core/master_rules.md`
 - `profiles/edge_deployment.md`

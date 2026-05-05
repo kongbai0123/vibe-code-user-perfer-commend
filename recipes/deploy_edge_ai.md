@@ -1,11 +1,10 @@
-# Recipe: Edge AI 部署 (Deploy Edge AI)
+# Recipe: 部署 Edge AI (Deploy Edge AI)
 
-組合了 Master Rules、Edge 部署與機電控制（如需要）。
+組合了 Master Rules 與 Edge Deployment，適合將模型部署到嵌入式系統。
 
 ```text
-【模式：Edge 部署組合包】
+【模式：Edge AI 部署組合包】
 
 請優先遵守 core/master_rules.md 中的最高優先級規則。
-並套用 profiles/edge_deployment.md 的部署準則。
-若涉及機電控制，請同時參考 profiles/control_system.md 的安全性要求。
+並套用 profiles/edge_deployment.md 的工程模式。
 ```

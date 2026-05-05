@@ -4,7 +4,9 @@ A structured prompt profile system for AI-assisted software engineering, debuggi
 
 ## Why This Repository Exists
 
-Most AI coding prompts focus only on speed. This repository focuses on **controlled speed**:
+Most AI coding prompts focus only on speed.
+
+This repository focuses on **controlled speed**:
 
 ```text
 fast iteration
@@ -42,6 +44,7 @@ AI role mode
 ## Quick Start
 
 ### For Vibe Coding (Rapid Feature Implementation):
+
 **Use:**
 - `core/master_rules.md`
 - `profiles/vibe_coding.md`
@@ -54,11 +57,13 @@ AI role mode
 ```
 
 ### For Debugging (Systematic Diagnosis):
+
 **Use:**
 - `core/master_rules.md`
 - `profiles/debug_diagnosis.md`
 
 ### For Architecture Design:
+
 **Use:**
 - `core/master_rules.md`
 - `profiles/architecture_design.md`

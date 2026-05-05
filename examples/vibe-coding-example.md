@@ -1,23 +1,14 @@
-# Example: Vibe Coding Implementation
+# Example: Vibe Coding 實作
 
-## Situation
-I want to implement a simple Python cache decorator with TTL (Time To Live).
+## 情境描述
+我想要實作一個簡單的 Python 快取裝飾器 (Cache Decorator)。
 
-## Recommended Prompt Profiles
+## 使用 Profile
 - `core/master_rules.md`
 - `profiles/vibe_coding.md`
 
-## User Prompt
-```text
-請套用 vibe coding 工程約束模式。
-
-任務如下：
-請幫我實作一個具備 TTL 功能的 Python 快取裝飾器。
-```
-
-## Expected AI Behavior
-1. Check requirements (LRU needed? Thread safety?).
-2. Design the data flow (Input -> Key Hash -> TTL Check -> Return/Compute).
-3. Implement using a layered approach (Cache Logic separated from Decorator).
-4. Provide unit tests.
-5. Provide structured logs.
+## 預期 AI 行為
+1. 先確認快取策略 (LRU, TTL 等)。
+2. 設計資料流 (Input -> Hash -> Storage -> Output)。
+3. 提供包含錯誤處理與 Log 的程式碼。
+4. 提供測試用例。

@@ -29,6 +29,7 @@ core/master_rules.md
 ```
 
 ### Example
+
 > 「請套用以下 prompt profiles：
 > - `core/master_rules.md`
 > - `profiles/vibe_coding.md`

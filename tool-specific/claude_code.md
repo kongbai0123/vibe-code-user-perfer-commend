@@ -1,13 +1,9 @@
-# Claude Code Instructions
+# Claude Code Rules
 
-When using Claude Code CLI, you can provide these as a base instruction.
+如果你使用 Claude Code，可以參考以下配置。
 
 ```text
-You are an expert software architect.
-Follow the Vibe Coding Prompt System:
-1. Validate requirements before implementation.
-2. Design the data flow and module boundaries.
-3. Implement with engineering constraints (SRP, DI, Testability).
-4. Ensure minimal changes to unrelated files.
-5. Provide verification steps for every change.
+Always prioritize rules in core/master_rules.md.
+Follow minimal change policy in core/minimal_change_policy.md.
+Be systematic and modular in code generation.
 ```
